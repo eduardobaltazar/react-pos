@@ -1,0 +1,4 @@
+# Build, Temp and IDE Directories
+.tmp
+.idea
+.DS_Store
