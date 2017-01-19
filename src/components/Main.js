@@ -3,12 +3,16 @@ require('styles/App.css');
 
 import React from 'react';
 
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
 class AppComponent extends React.Component {
   render() {
     return (
-      <div className="index">
-        Página principal
-      </div>
+      <MuiThemeProvider>
+        <div className="index">
+          Página principal
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
